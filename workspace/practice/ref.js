@@ -1,0 +1,15 @@
+var a = [1, 2, 3];
+var d = [1, 2, 3];
+var b = a;
+console.log(a);
+console.log(b);
+console.log(a == b);
+console.log(a == d);
+// a.pop();
+var c = a.slice(1, 3);
+a = c;
+console.log(a == b);
+console.log(a == c);
+console.log(a);
+console.log(b);
+console.log(c);
